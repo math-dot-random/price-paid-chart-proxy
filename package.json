@@ -1,0 +1,28 @@
+{
+  "name": "price-paid-chart-proxy",
+  "version": "1.0.0",
+  "description": "Price Paid Chart Proxy Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/math-dot-random/price-paid-chart-proxy.git"
+  },
+  "author": "Chaynor Hsiao",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/math-dot-random/price-paid-chart-proxy/issues"
+  },
+  "homepage": "https://github.com/math-dot-random/price-paid-chart-proxy#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "http-proxy": "^1.17.0",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0",
+    "sequelize": "^5.8.7"
+  }
+}
