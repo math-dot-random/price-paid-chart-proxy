@@ -40,7 +40,7 @@ app.get('/api/stocks/:stock/price', (req, res) => {
 });
 
 app.get('/api/stocks/:stock/earnings', (req, res) => {
-  res.redirect(`http://localhost:3000/api/stocks/${req.params.stock}/earnings`);
+  res.redirect(`http://ec2-52-14-233-205.us-east-2.compute.amazonaws.com:3000/api/stocks/${req.params.stock}/earnings`);
 });
 //GET request for stock price data
 
